@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin-left: 2rem;
+}
+
+header {
+    width: 80%;
+    height: 120px;
+}
+
+nav {
+    position: relative;
+    float: right;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img[src] {
+    height: 120px
+}
+
+.buttonField {
+    height: 70px;
+    width: 80%;
+    background-color: rgb(236, 210, 12);
+    display: flex;
+    align-items: center;
+}
+
+#addButton {
+    background-color: rgb(8, 169, 8);
+    color: white;
+    font-size: large;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+main {
+    width: 80%;
+}
+
+.itemList {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: rgb(207, 203, 203) solid 1px;
+}
+
+.citySector {
+    width: 10%;
+}
+
+.photo {
+    width: 20%;
+    height: 140px;
+    border: rgb(207, 203, 203) solid 1px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.itemInfo {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.itemInfo h2 {
+    color: rgb(8, 169, 8);
+}

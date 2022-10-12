@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin-left: 2rem;
+}
+
+header {
+    width: 80%;
+    height: 120px;
+}
+
+nav {
+    position: relative;
+    float: right;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img[src] {
+    height: 120px
+}
+
+.yellowField {
+    height: 3px;
+    width: 1300px;
+    background-color: rgb(236, 210, 12);
+    display: flex;
+    align-items: center;
+}
+
+#addButton {
+    background-color: rgb(8, 169, 8);
+    color: white;
+    font-size: medium;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(229, 229, 229);
+    border: none;
+    border-radius: 10px;
+}
+
+h3 {
+    color:  rgb(8, 169, 8);
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin-left: 2rem;
+}
+
+header {
+    width: 80%;
+    height: 120px;
+}
+
+nav {
+    position: relative;
+    float: right;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img[src] {
+    height: 120px
+}
+
+.buttonField {
+    height: 70px;
+    width: 1300px;
+    background-color: rgb(236, 210, 12);
+    display: flex;
+    align-items: center;
+}
+
+#addButton, #deleteButton {
+    background-color: rgb(8, 169, 8);
+    color: white;
+    font-size: large;
+    border: none;
+    padding: 10px;
+}
+
+#addButton {
+    margin-left: 20px;
+}
+
+main {
+    display: flex;
+}
+
+.item { 
+    width: 935px;
+    border: rgb(207, 203, 203) solid 1px;
+    margin-right: 20px;
+}
+
+.itemSector {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 900px;
+}
+
+.photo {
+    margin: 0;
+    border: rgb(207, 203, 203) solid 1px;
+    text-align: center;
+}
+
+#foto{
+    height: 400px;;
+}
+
+.com {
+    border: rgb(207, 203, 203) solid 1px;
+    width: 340px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(8, 169, 8);
+}
+
+.price {
+    text-align: right;
+}
